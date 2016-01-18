@@ -1,0 +1,37 @@
+.ta-toolbar {
+  margin-bottom: 3em;
+}
+.ta-text, .ta-bind {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-group button {
+  background: #F7F7F7;
+  border: 1px solid #DEDEDE;
+}
+
+.btn-group button.active  {
+  background: #E0DFDF;
+}
+.btn-group {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+pre {
+  background: #EFEFEF;
+  border: 1px solid #C7C7C7;
+  border-radius: 4px;
+  padding: 0 12px;
+}
+
+#header .description {
+  font-size: 0.7rem;
+  font-weight: normal;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.77);;
+  width: 143px;
+  position: relative;
+  top: -7px;
+}

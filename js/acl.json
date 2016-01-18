@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "pages": {
+// only allow to create new pages
+      ".write": "!data.exists()",
+      // data written to /foo/ must be a string less than 100 characters
+      ".validate": "newData.isString() && newData.val().length < 100"
+    }
+  }
+}

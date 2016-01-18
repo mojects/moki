@@ -1,0 +1,12 @@
+# Site settings
+title: Mojects
+email: info@coav.ru
+description: > # this means to ignore newlines until "baseurl:"
+  It's possible, that traditional ways of work aren't fit current technological progress.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://mojects.github.io" # the base hostname & protocol for your site
+twitter_username: garmoshka-mo
+github_username:  garmoshka-mo
+
+# Build settings
+markdown: kramdown
